@@ -204,7 +204,34 @@ span {
 }
 
 /* shop section  */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #d2dede;
+}
+
 .box {
-  height: 100px;
-  border: 2px solid black;
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 22px;
+}
+
+.box-img {
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content p {
+  color: #007189;
 }
